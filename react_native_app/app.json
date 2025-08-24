@@ -1,0 +1,14 @@
+{
+  "name": "FDSReactNativeApp",
+  "displayName": "FDS Bengali PDF System",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "description": "Friends Development Society Bengali PDF Statement System",
+  "author": "FDS Team",
+  "license": "MIT",
+  "orientation": "portrait",
+  "platforms": [
+    "android",
+    "ios"
+  ]
+}
