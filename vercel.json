@@ -1,0 +1,19 @@
+{
+  "buildCommand": "npm run vercel-build",
+  "installCommand": "npm install",
+  "framework": "nextjs",
+  "functions": {
+    "app/**/*.tsx": {
+      "maxDuration": 30
+    },
+    "app/**/*.ts": {
+      "maxDuration": 30
+    }
+  },
+  "env": {
+    "NEXTAUTH_SECRET": "Kt1XtRi8uKkMmUECxVDkFuT2FbQkbVL3L2XBUj659i8=",
+    "DATABASE_URL": "postgresql://neondb_owner:npg_lGkgRzm0oJf4@ep-dry-band-adx1yzwd-pooler.c-2.us-east-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require",
+    "ADMIN_USERNAME": "admin",
+    "ADMIN_PASSWORD": "admin123"
+  }
+}
